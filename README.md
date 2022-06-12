@@ -1,6 +1,7 @@
 # roamjs-daily-zettles
 
 A [RoamJS] plugin that generates a random list of three links from pages that contain the `#zettles` tag.
+This is useful if you use the [Zettelkasten] method of note-taking.
 
 It adds the list to the top of your "today" page.
 
@@ -8,9 +9,9 @@ It looks like this:
 
 ![screenshot](screenshot.png)
 
-This was inspired by the [serendipity] plugin
+This was inspired by the [serendipity] plugin, which *almost* does what I want, but not quite.
 
-## Running
+## Installing
 
 1. Create a block with the following text on any page in your graph.
 
@@ -35,6 +36,19 @@ if (!existing) {
 
 
 ## Local development
+
+### Installing the prereqs
+
+This is a javascript project, so you need to have the following installed:
+
+* node
+* npm
+
+Once you've got this, install the project dependencies by doing:
+
+```
+npm install
+```
 
 ### Starting the server
 
@@ -68,6 +82,9 @@ if (!existing) {
 ```
 
 
+
+
 [just]: https://just.systems/man/en/
 [RoamJS]: https://roamjs.com/
 [serendipity]: https://roamjs.com/extensions/serendipity
+[Zettelkasten]: https://zettelkasten.de/introduction/
