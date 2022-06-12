@@ -1,6 +1,8 @@
 # roamjs-daily-zettles
 
-A [RoamJS] plugin that generates a random list of three links from pages that contain the `#zettles` tag:
+A [RoamJS] plugin that generates a random list of three links from pages that contain the `#zettles` tag.
+
+It looks like this:
 
 ![screenshot](screenshot.png)
 
