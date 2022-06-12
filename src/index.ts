@@ -1,6 +1,5 @@
 import {
 	getBlockUidsAndTextsReferencingPage,
-	getCurrentPageUid,
 	getPageTitleByBlockUid,
 	createBlock,
 	toRoamDateUid,
@@ -54,7 +53,6 @@ const getZettleTitles = (): string[] => {
 
 const zettlesArePresent = () : boolean => {
 	const tree = getShallowTreeByParentUid(getTodayPageUid());
-	console.log(tree);
 	return tree[0].text === HEADING;
 }
 
