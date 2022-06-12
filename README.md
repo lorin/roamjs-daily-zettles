@@ -1,11 +1,12 @@
 # roamjs-daily-zettles
 
-A [RoamJS] plugin that generates a random list of three links from pages that contain the `#zettles` tag.
+A [RoamJS] plugin that generates a random set of zettle pages each day.
 This is useful if you use the [Zettelkasten] method of note-taking.
 
-It adds the list to the top of your "today" page.
+Specifically, it automatically adds a list of three page links to the top of your "today" page.
+The pages are randomly selected from all pages that contain the `#zettles` tag.
 
-It looks like this:
+The generated list looks like this:
 
 ![screenshot](screenshot.png)
 
