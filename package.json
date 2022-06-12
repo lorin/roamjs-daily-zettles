@@ -12,6 +12,7 @@
   },
   "license": "Apache",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "roamjs-scripts": "^0.18.15",
     "typescript": "^4.7.3"
   },
