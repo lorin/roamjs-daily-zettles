@@ -10,7 +10,9 @@ The generated list looks like this:
 
 ![screenshot](screenshot.png)
 
-This was inspired by the [serendipity] plugin, which *almost* does what I want, but not quite.
+This was inspired by the [serendipity] plugin ([source][1]), which *almost* does what I want, but not quite.
+
+[1]: https://github.com/dvargas92495/roamjs-com/blob/main/src/entries/serendipity.ts
 
 ## Installing
 
