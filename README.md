@@ -95,7 +95,20 @@ if (!existing) {
 ```
 
 
-## Deploying
+## Build and deploy
+
+Build by doing:
+
+```
+just build
+```
+
+This will create the following files:
+
+* .env
+* extension.js
+
+Commit these files to the gh-pages branch and push them up.
 
 
 
