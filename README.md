@@ -97,21 +97,21 @@ if (!existing) {
 
 ## Build and deploy
 
-To deploy, build to create the .env and extension.js files, and then commit them to the gh-pages branch:
+1. Build to generate .env, extension.js
+2. Commit those files to the gh-pages branch and push up
+
 
 ```
 just build
 git stash -u
 git checkout
 git checkout gh-pages
-git add .env
-git add extension.js
+rm .env extension.js
+git stash pop
+git add .env extension.js
 git commit -m 'new build'
 git push
 ```
-
-
-
 
 
 [just]: https://just.systems/man/en/
