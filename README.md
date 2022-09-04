@@ -37,6 +37,16 @@ if (!existing) {
 }
 ```
 
+## Forcing the code to run
+
+Sometimes the code doesn't run. You can create a button to trigger the script by doing:
+
+```
+{{daily-zettles}}
+```
+
+Clicking the button should execute the script.
+
 
 ## Local development
 
@@ -83,6 +93,11 @@ if (!existing) {
   document.getElementsByTagName("head")[0].appendChild(extension);
 }
 ```
+
+
+## Deploying
+
+
 
 
 

@@ -5,6 +5,7 @@ import {
 
 import {
 	createBlock,
+  createButtonObserver,
 	getShallowTreeByParentUid
  } from 'roam-client';
 
@@ -44,5 +45,13 @@ const main = (): void => {
     parentUid,
   });
 };
+
+createButtonObserver({
+  attribute: "daily-zettles",
+  render: (b: HTMLButtonElement) => {
+    b.onclick = () => main()
+  }
+});
+
 
 main();
