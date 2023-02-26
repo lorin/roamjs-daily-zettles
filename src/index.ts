@@ -14,7 +14,7 @@ import {
  //
  const HEADING = "Daily zettles";
  const ZETTLE_TAG = "zettles";
- const NUM_ZETTLES = 3;
+ const NUM_ZETTLES = 5;
 
 
 const zettlesArePresent = () : boolean => {
